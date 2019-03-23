@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "871774769520",
+    "firebase_url": "https://belocal-2f886.firebaseio.com",
+    "project_id": "belocal-2f886",
+    "storage_bucket": "belocal-2f886.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871774769520:android:d5caf9c5f823d8cc",
+        "android_client_info": {
+          "package_name": "com.example.belocal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871774769520-oiqj6bglko1kr45biej8esr8g21q475s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belocal",
+            "certificate_hash": "a848207276cf9103d9ae19232a813a59947f7e72"
+          }
+        },
+        {
+          "client_id": "871774769520-ncmc2iihg8784c4i87sp6075lfe9ur6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7RyaNkWJ3VyiccD-QWWUvfnyX4QiihJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871774769520-ncmc2iihg8784c4i87sp6075lfe9ur6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
