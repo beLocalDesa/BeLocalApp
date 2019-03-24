@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnSignOut = (Button) findViewById(R.id.singOut);
+
         btnSignOut.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -84,9 +85,21 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText( this, user.getEmail(), Toast.LENGTH_SHORT ).show();
                 //Get Buttom SignOut
                 btnSignOut.setEnabled(true);
+                Intent myIntent = new Intent(getBaseContext(), StoreActivity.class);
+                startActivity(myIntent);
             }else{
                 Toast.makeText( this, response.getError().getMessage(), Toast.LENGTH_SHORT ).show();
             }
         }
     }
+
+
+    public void goToStore(View v){
+        Intent myIntent = new Intent(getBaseContext(), StoreActivity.class);
+        startActivity(myIntent);
+    }
+
+
+
+
 }
