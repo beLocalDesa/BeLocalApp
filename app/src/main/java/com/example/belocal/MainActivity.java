@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText( this, user.getEmail(), Toast.LENGTH_SHORT ).show();
                 //Get Buttom SignOut
                 btnSignOut.setEnabled(true);
-                Intent myIntent = new Intent(getBaseContext(), StoreActivity.class);
+                Intent myIntent = new Intent(getBaseContext(), MapsActivity.class);
                 startActivity(myIntent);
             }else{
                 Toast.makeText( this, response.getError().getMessage(), Toast.LENGTH_SHORT ).show();

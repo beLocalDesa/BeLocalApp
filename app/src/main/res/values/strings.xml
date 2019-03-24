@@ -2,4 +2,5 @@
     <string name="app_name">BeLocal</string>
     <string name="singout">SingIn</string>
     <string name="gotostore">gotostore</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
