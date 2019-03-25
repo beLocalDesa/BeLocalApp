@@ -9,6 +9,7 @@ public class APIUtils {
     }
 
     public static final String API_URL = "http://192.168.0.12:8090";
+    public static final String API_URL_IMAGEN = "http://192.168.0.12:8090";
 
     public static StoreService getStoreService(){
         return RetrofitClient.getClient(API_URL).create(StoreService.class);

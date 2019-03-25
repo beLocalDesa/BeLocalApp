@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="guidelineLeft" type="id"></item>
+    <item name="txtNameStore" type="id"></item>
+    <item name="txtPhoneStore" type="id"></item>
+    <item name="txtAddressStore" type="id"></item>
+    <item name="guidelineRight" type="id"></item>
+    <item name="spinnerDistrictStore" type="id"></item>
+    <item name="spinnerCategoryStore" type="id"></item>
+    <item name="editText11" type="id"></item>
+    <item name="nameStore" type="id"></item>
+    <item name="phoneStore" type="id"></item>
+    <item name="categoryStore" type="id"></item>
+    <item name="addressStore" type="id"></item>
+    <item name="districtStore" type="id"></item>
+    <item name="postalCodeStore" type="id"></item>
+    <item name="emailStore" type="id"></item>
+    <item name="textView2" type="id"></item>
+    <item name="guideline" type="id" />
+    <item name="storePicture" type="id" />
+    <item name="textView3" type="id" />
+    <item name="textView" type="id" />
+    <item name="btnFicha" type="id" />
+    <item name="btnStock" type="id" />
+</resources>
