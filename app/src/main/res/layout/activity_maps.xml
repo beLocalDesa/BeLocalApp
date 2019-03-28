@@ -92,7 +92,10 @@
         android:layout_marginTop="8dp"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/storePicture" />
+        app:layout_constraintTop_toBottomOf="@+id/storePicture"
+        android:onClick="goToEditStore"
+
+        />
 
     <Button
         android:id="@+id/btnStock"
@@ -100,6 +103,7 @@
         android:layout_height="38dp"
         android:layout_marginTop="8dp"
         android:text="Button"
+        android:onClick="goToProduct"
         app:layout_constraintStart_toEndOf="@+id/btnFicha"
         app:layout_constraintTop_toBottomOf="@+id/storePicture" />
 
@@ -205,12 +209,16 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="@color/browser_actions_text_color"
         android:tint="@color/browser_actions_bg_grey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:onClick="goToCamera"
+
+        />
 
 </android.support.constraint.ConstraintLayout>

@@ -3,4 +3,130 @@
     <string name="singout">SingIn</string>
     <string name="gotostore">gotostore</string>
     <string name="title_activity_maps">Map</string>
+
+    <string-array name="district">
+        <item>Alicante</item>
+        <item>Catral</item>
+        <item>Daya Nueva</item>
+        <item>Almoradí</item>
+        <item>Algorfa</item>
+        <item>Rojales</item>
+        <item>San Fulgencio</item>
+        <item>Benijófar</item>
+        <item>Formentera del Segura</item>
+        <item>Torrevieja</item>
+        <item>Los Montesinos</item>
+        <item>Orihuela-Costa</item>
+        <item>Pilar de ,la Horadada</item>
+        <item>San Miguel ,de Salinas</item>
+        <item>La Marina</item>
+        <item>El Altet</item>
+        <item>Elche</item>
+        <item>Orihuela</item>
+        <item>Jacarilla</item>
+        <item>La Aparecida</item>
+        <item>Los Desamprados</item>
+        <item>Hurchillo</item>
+        <item>San Bartolome</item>
+        <item>Los Perez</item>
+        <item>Benferri</item>
+        <item>Los Monteros</item>
+        <item>Los Vicentes</item>
+        <item>Entre Naranjos</item>
+        <item>Torrellano</item>
+        <item>Crevillent</item>
+        <item>Albatera</item>
+        <item>San Isidro</item>
+        <item>Callosa de Segura</item>
+        <item>Villena</item>
+        <item>Beneixama</item>
+        <item>Benidorm</item>
+        <item>Elda</item>
+        <item>Petrer</item>
+        <item>San Vicente del Raspeig</item>
+        <item>Denia</item>
+        <item>Calpe</item>
+        <item>Alcoy</item>
+        <item>La Nucia</item>
+        <item>Benidoleig</item>
+        <item>Javea</item>
+        <item>Parcent</item>
+    </string-array>
+
+    <string-array name="district_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Amazon Prime Video</item>
+        <item>Todos los videos</item>
+        <item>Películas</item>
+        <item>Series</item>
+        <item>Amazon Music</item>
+        <item>Amazon Music Unlimited</item>
+        <item>Prime Music</item>
+        <item>Abrir el lector Web</item>
+        <item>Descargar nuestras aplicaciones</item>
+        <item>CD Vinilos</item>
+    </string-array>
+
+
+    <string-array name="category_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
 </resources>

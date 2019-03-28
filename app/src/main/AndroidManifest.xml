@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".editStore"></activity>
+        <activity android:name=".ProductActivity"></activity>
+        <activity android:name=".editStore" />
         <activity android:name=".addStore" />
         <activity android:name=".CameraProductActivity" />
         <!--

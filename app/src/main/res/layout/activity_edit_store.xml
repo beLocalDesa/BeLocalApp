@@ -104,11 +104,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editCategoryStore" />
 
     <Button
+
         android:id="@+id/btnEditStore"
         android:layout_width="129dp"
         android:layout_height="54dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
+        android:onClick="saveRecord"
         android:text="Edit Store"
         app:layout_constraintStart_toStartOf="@+id/guidelineRight"
         app:layout_constraintTop_toBottomOf="@+id/editEmailStore" />
@@ -117,12 +119,10 @@
         android:id="@+id/editNameStore"
         android:layout_width="293dp"
         android:layout_height="38dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
-        app:layout_constraintTop_toBottomOf="@+id/nameStore" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="184dp" />
 
     <EditText
         android:id="@+id/editPhoneStore"
